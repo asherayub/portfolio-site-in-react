@@ -46,7 +46,8 @@ const Left = styled.div`
   }
 `;
 const Right = styled.div`
-  width: 400px;
+  width: auto;
+  max-width: 400px;
   text-align: center;
   margin: 0 10px;
   * {
@@ -61,5 +62,8 @@ const Right = styled.div`
     width: 400px;
     text-align: center;
     box-shadow: 1px 1px 5px 5px #00ffbb09;
+    @media (max-width: 750px) {
+      width: 300px;
+    }
   }
 `;

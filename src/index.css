@@ -27,3 +27,6 @@ body{
     transform: scale(1.1);
   }
 }
+#root{
+  margin: 0;
+}

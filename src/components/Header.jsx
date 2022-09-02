@@ -70,6 +70,7 @@ const Container = styled.div`
   left: 0;
   right: 0;
   height: 65px;
+  padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -77,7 +78,7 @@ const Container = styled.div`
   z-index: 10;
 `;
 const Left = styled.div`
-  margin-left: 20px;
+  // margin-left: 30px;
 `;
 const Middle = styled.div`
   display: flex;
@@ -103,7 +104,7 @@ const Middle = styled.div`
   }
 `;
 const Right = styled.div`
-  margin-right: 30px;
+  // margin-right: 30px;
   display: flex;
   gap: 10px;
   align-items: center;
@@ -169,5 +170,5 @@ const CloseBtn = styled(CloseIcon)`
   right: 30px;
 `;
 const Logo = styled(BalconyIcon)`
-  font-size: 3rem;
+  transform: scale(2);
 `;
