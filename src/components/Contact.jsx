@@ -62,6 +62,9 @@ const ContactMe = styled.div`
     border-radius: 10px;
     font-size: 1.2rem;
     outline: none;
+    @media (max-width: 520px){
+        width: 80vw;
+    }
   }
   }
 `;
